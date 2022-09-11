@@ -24,7 +24,7 @@ function HomeScreen({ navigation }:any) {
         title="Submit"
         onPress={async () => {
           var flagUrl = `https://restcountries.com/v3.1/name/${text}`;
-          var mainUrl = `http://api.weatherstack.com/current?access_key=718dec173aa82cf66ed6a690b6f39cc4&query=${text}`;
+          var mainUrl = `http://api.weatherstack.com/current?access_key=12039b280eecc1775816218a398a8091&query=${text}`;
 
           await fetch(mainUrl)
             .then((response) => response.json())
